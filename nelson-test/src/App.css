@@ -1,0 +1,39 @@
+.App{
+  min-height: 100vh;
+  background-image: linear-gradient(120deg, #464c58 0%, #2c4872 100%);
+}
+
+.search-form{
+  min-height: 10vh;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.search-bar{
+  width: 50%;
+  border: none;
+  padding: 10px;
+}
+
+.search-button{
+  background: rgb(180, 180, 206);
+  border: none;
+  padding: 10px 20px;
+  color: white;
+}
+
+.results{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.frangos{
+  min-height: 10vh;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin: 10px;
+}
+
