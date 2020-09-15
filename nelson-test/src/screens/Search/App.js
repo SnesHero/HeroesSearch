@@ -1,5 +1,5 @@
 import React, {useEffect, useState } from 'react';
-import {Heroes} from "../src/components";
+import {Heroes} from "../../components";
 import "./App.css";
 
 const App = () => {
