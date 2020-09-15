@@ -2,7 +2,7 @@ import React, {useEffect, useState } from 'react';
 import {Heroes} from "../../components";
 import "./App.css";
 
-const App = () => {
+export const App = () => {
   //const APP_ID = "6a65f9e5";
  // const APP_KEY = "900c15e594f8d16a10438b3451575bd8";
   const ACCESS_TOKEN = "2860483204056912";
@@ -63,5 +63,3 @@ const App = () => {
     
   );
 };
-
-export default App; 
