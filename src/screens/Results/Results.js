@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Heroes } from "../../components";
 import { NoResults } from "../../components/NoResults/NoResults";
 import useResults from "./useResults";
-//import "./App.css";
+import style from "./Results.module.css";
 
 // Esse é o antigo App.js
 
@@ -17,12 +17,12 @@ export const Results = () => {
   } = useResults();
 
   return (
-    <div className="App">
+    <div className={style.App}>
      
-      //{/* {resp = "success" &&( 
+      {/* {resp = "success" &&( 
         //console.log("foi"))} */}
-      //{/* <h1 className="frangos">Nelson Heroes</h1> */}
-      <form onSubmit={getSearch} className="search-form">
+      <h1 className={style.frangos}>Nelson Heroes</h1>
+      <form onSubmit={getSearch} className={style.searchform}>
         <input
           className="search-bar"
           type="text"
@@ -30,7 +30,7 @@ export const Results = () => {
           onChange={updateSearch}
         />
 
-        <button className="search-button" type="submit">
+        <button className={style.searchbutton} type="submit">
           Search
         </button>
       </form>
