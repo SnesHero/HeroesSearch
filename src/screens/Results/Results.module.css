@@ -1,6 +1,7 @@
 .App{
     min-height: 100vh;
-    background-image: linear-gradient(120deg, #464c58 0%, #2c4872 100%);
+    background-image: linear-gradient(120deg, #3e6dca 0%, #2c4872 100%);
+    flex-direction: space-around;
   }
   
   .searchform{
@@ -25,7 +26,6 @@
   
   .results{
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
   }
   

@@ -9,8 +9,9 @@ export const NoResults = () => {
     <div className={style.flexing}>
       <div>
       <h1 className={style.galinhas}>
-      Nenhum resultado encontrado
+      No results were found
       </h1>
+      <p className={style.galinhas}> Tip: try searching "superman" instead of "super man" </p>
       </div>
       <br/>
      

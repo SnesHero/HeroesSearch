@@ -22,6 +22,7 @@ export const Results = () => {
       {/* {resp = "success" &&( 
         //console.log("foi"))} */}
       <h1 className={style.frangos}>Nelson Heroes</h1>
+      <p className={style.frangos}> A simple API search application made with React </p>
       <form onSubmit={getSearch} className={style.searchform}>
         <input
           className="search-bar"
