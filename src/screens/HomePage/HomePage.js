@@ -7,7 +7,6 @@ export const HomePage = () => {
     return(
         <div className="home">
             <h1 className="title">Super Nelson Wars</h1>
-            <div>This is a test</div>
            <Searchbar/>
 
             <div >
